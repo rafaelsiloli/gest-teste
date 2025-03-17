@@ -1,0 +1,15 @@
+nav {
+    background-color: #007bff;
+    padding: 10px;
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      margin-right: 20px;
+    }
+    .active {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
+  

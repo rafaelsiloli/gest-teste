@@ -1,0 +1,11 @@
+<div class="container mt-4">
+  <h2 class="text-primary">Consulta de Créditos</h2>
+
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" [(ngModel)]="numero" placeholder="Digite o número da NFS-e ou Crédito">
+    <button class="btn btn-primary" (click)="buscarPorNfse()">Buscar por NFS-e</button>
+    <button class="btn btn-secondary" (click)="buscarPorCredito()">Buscar por Crédito</button>
+  </div>
+
+  <app-lista-creditos [creditos]="creditos"></app-lista-creditos>
+</div>
