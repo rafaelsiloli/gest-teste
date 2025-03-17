@@ -1,0 +1,15 @@
+spring:
+    jpa:
+        hibernate:
+            default_schema: creditos
+    datasource:
+        driver-class-name: org.postgresql.Driver
+        url: jdbc:postgresql://localhost:5432/creditosdb?currentSchema=creditos
+        username: admin
+        password: admin
+
+    flyway:
+        enabled: true
+        locations: classpath:db/migration
+        schemas: creditos
+        default-schema: creditos
