@@ -2,7 +2,7 @@ FROM openjdk:17-jdk-slim
 
 WORKDIR /app
 
-COPY target/seu-projeto.jar app.jar
+COPY target/api-consulta-0.1.jar app.jar
 
 EXPOSE 8080
 
